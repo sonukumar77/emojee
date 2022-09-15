@@ -8,7 +8,7 @@ const Main = () => {
 
     const typed = (e) => {
         const value = e.target.value;
-        setKeyword(value);
+        setKeyword(value.toLowerCase());
     }
 
     useEffect(() => {
